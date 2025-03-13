@@ -1,0 +1,25 @@
+docker compose up
+
+
+
+
+
+
+
+docker exec -it hadoop-namenode-1 bash
+
+
+
+
+
+
+hdfs dfs -mkdir -p /data
+
+
+
+hdfs dfs -put /etc/hosts /data
+
+  
+hdfs dfs -ls /data
+
+hdfs dfs -cat /data
