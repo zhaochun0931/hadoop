@@ -16,7 +16,7 @@ docker exec -it hadoop-namenode-1 bash
 hdfs dfs -mkdir -p /data
 
 
-echo hello hadoop > /tmp/xxx
+echo "hello hadoop" > /tmp/xxx
 
 hdfs dfs -put /tmp/xxx /data
 
@@ -32,7 +32,7 @@ root@namenode:/#
 
 
 
-hdfs dfs -cat /data
+hdfs dfs -cat /data/xxx
 
 
 root@namenode:/# hdfs dfs -cat /data/xxx
