@@ -60,8 +60,20 @@ hadoop version
 
 
 
-
+# Validate Hadoop Configuration
 hdfs namenode -format
+
+
+
+# Start the NameNode and DataNode
+start-dfs.sh
+
+
+# Start the YARN Resource and Node Managers
+start-yarn.sh
+
+
+
 
 start-all.sh
 
