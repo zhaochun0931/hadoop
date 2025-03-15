@@ -49,3 +49,11 @@ Compiled with protoc 3.23.4
 From source with checksum 7292fe9dba5e2e44e3a9f763fce3e680
 This command was run using /root/hadoop-3.4.1/share/hadoop/common/hadoop-common-3.4.1.jar
 #
+
+
+
+
+mkdir -p /hadoop/data
+mkdir -p /hadoop/name
+
+
