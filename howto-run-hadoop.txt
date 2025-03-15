@@ -13,33 +13,3 @@ docker exec -it hadoop-namenode-1 bash
 
 
 
-hdfs dfs -mkdir -p /testdata
-hdfs dfs -ls /testdata
-
-
-
-
-
-
-echo "hello hadoop" > xxx
-hdfs dfs -put xxx /testdata
-
-  
-
-root@namenode:/# hdfs dfs -ls /testdata
-Found 2 items
--rw-r--r--   3 root supergroup         13 2025-03-13 11:37 /testdata/xxx
-root@namenode:/#
-
-
-
-
-
-hdfs dfs -cat /testdata/xxx
-
-
-# hdfs dfs -cat /testdata/xxx
-2025-03-13 11:39:19,434 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
-hello hadoop
-#
-
