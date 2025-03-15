@@ -18,6 +18,15 @@ adduser hadoop
 usermod -aG sudo hadoop
 
 
+
+ssh-keygen
+ssh-copy-id localhost
+
+
+
+
+
+
 https://hadoop.apache.org/releases.html
 wget https://dlcdn.apache.org/hadoop/common/hadoop-3.4.1/hadoop-3.4.1.tar.gz
 
