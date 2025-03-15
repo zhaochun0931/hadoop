@@ -1,11 +1,13 @@
-yum install java-1.8.0-openjdk
-
+apt update
+apt install openjdk-8-jdk
 java -version
+which java
+
+
+
 
 
 https://hadoop.apache.org/releases.html
-
-
 wget https://dlcdn.apache.org/hadoop/common/hadoop-3.4.1/hadoop-3.4.1.tar.gz
 
 
@@ -22,9 +24,7 @@ sha512sum hadoop-3.4.1.tar.gz
 tar -xzvf hadoop-3.4.1.tar.gz
 
 
-# which java
-/bin/java
-#
+
 
 
 
@@ -32,8 +32,6 @@ tar -xzvf hadoop-3.4.1.tar.gz
 export JAVA_HOME=/
 export HADOOP_HOME=/root/hadoop-3.4.1
 export PATH=$HADOOP_HOME/bin:$PATH
-
-
 
 
 
