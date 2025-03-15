@@ -31,7 +31,7 @@ tar -xzvf hadoop-3.4.1.tar.gz
 
 export JAVA_HOME=/
 export HADOOP_HOME=/root/hadoop-3.4.1
-export PATH=$HADOOP_HOME/bin:$PATH
+export PATH=$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$PATH
 
 
 
