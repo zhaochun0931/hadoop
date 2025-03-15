@@ -51,8 +51,8 @@ This command was run using /root/hadoop-3.4.1/share/hadoop/common/hadoop-common-
 
 
 
-mkdir -p /hadoop/data
-mkdir -p /hadoop/name
+mkdir -p /hadoop/datanode
+mkdir -p /hadoop/namenode
 
 
 
