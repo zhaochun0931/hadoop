@@ -69,6 +69,21 @@ hdfs namenode -format
 start-dfs.sh
 
 
+$ start-dfs.sh
+Starting namenodes on [0.0.0.0]
+Starting datanodes
+Starting secondary namenodes [gp2]
+$ jps
+8658 Jps
+8549 SecondaryNameNode
+8198 NameNode
+8328 DataNode
+$
+
+
+
+
+
 # Start the YARN Resource and Node Managers
 start-yarn.sh
 
